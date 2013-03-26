@@ -1,0 +1,360 @@
+DATA STRUCTURES AND ALGORITHMS
+
+Question 1
+Question text
+
+State True/False: Prim's Algorithm is based on greedy algorithm design.
+
+Select one:
+
+a. False
+b. True
+
+ 
+Question 2
+Question text
+
+State True/False: A undirected graph with no selfloops having 4 vertices can not have 7 edges
+
+Select one:
+
+a. True
+b. False 
+
+Question 3
+
+ 
+
+Question text
+
+State True/False: If G is a graph with m edges, the sum of degrees of all the edges in G is 2m
+
+Select one:
+
+a. True
+b. False
+
+ 
+
+Question 4
+
+Question text
+
+State True/False: Kruskal’s algorithm for Finding a minimum spanning tree uses dynamic Programming Technique
+
+Select one:
+
+a. True
+b. False
+
+ 
+
+Question 5
+
+ 
+
+Question text
+
+State True/False: For an undirected graph represented using adjacency matrix A, A[i,j]=1 and A[j,k] =1, then A[i,k]=1
+
+Select one:
+
+a. False
+
+b. True
+
+Question 6
+
+ 
+
+Question text
+
+State True/False: Determining if a graph is cyclic can be performed in worst-case linear time in the input size.
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+Question 7
+
+ 
+
+Question text
+
+State True/False: Prim’s algorithm for ?nding a minimum spanning tree uses dynamic Programming Technique
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+Question 8
+
+ 
+
+Question text
+
+State True/False: For an undirected graph represented using adjacency matrix A,A[i,j] = A[j,i]
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+Question 9
+
+ 
+
+Question text
+
+State True/False: The Bellman-Ford algorithm for solving the single-source shortest paths problem uses dynamic Programming Technique
+
+Select one:
+
+a. True
+
+b. False 
+
+Question 10
+
+ 
+
+Question text
+
+State True/False: The topological sort of an arbitrary directed graph G(V,E) can be computed in linear time
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Question 11
+
+ 
+
+Question text
+
+State True/False: An directed graph containing 10 vertices and 12 edges has the total degree 24
+
+Select one:
+
+a. True
+
+b. False 
+
+Question 12
+
+ 
+
+Question text
+
+State True/False: Every directed acyclic graph has exactly one topological ordering
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+Question 13
+
+ 
+
+Question text
+
+State True/False: Kruskal's Algorithm is based on divide and conquer algorithm deign.
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+Question 14
+
+ 
+
+Question text
+
+State True/False: Floyd-Warshall algorithm for solving the all-pairs shortest paths problem uses dynamic Programming Technique
+
+Select one:
+
+a. False
+
+b. True
+
+ Question 15
+
+Question text
+
+State True/False: Dijkstra’s algorithm for solving the single-source shortest paths problem is based on dynamic programming algorithm deign.
+
+Select one:
+a. True
+b. False
+
+
+Question 16
+Question text
+State True/False: An directed graph containing 5 vertices and 6 edges can be connected.
+Select one:
+a. False
+b. True
+
+Question 17
+Question text
+
+State True/False: A undirected graph with no selfloops having 4 vertices can not have 6 edges
+Select one:
+a. False
+b. True
+
+ 
+
+Question 18
+
+Question text
+State True/False: Finding shortest path between all pairs of vertices can not be performed in worst-case linear time in the input size.
+Select one:
+a. True
+b. False 
+
+Question 19
+
+Question text
+
+State True/False: Dijkstra’s algorithm may not terminate if the graph contains negative-weight edges.
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+Question 20
+
+Question text
+
+State True/False: Finding Longest Common Subsequence is based on divide and conquer algorithm deign.
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+Question 21
+
+Question text
+
+State True/False: Prims algorithm works on a graph with negative weighted edges.
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+Question 22
+
+Question text
+
+State True/False: Traversing the spanning tree in-order can be performed in worst-case linear time in the input size.
+
+Select one:
+
+a. True
+
+b. False
+
+Question 23
+
+Question text
+
+State True/False: Given a graph G = (V, E) with positive edge weights, the Bellman-Ford algorithm and Dijkstra’s
+
+Select one:
+
+a. False
+
+b. True
+
+ 
+
+Question 24
+
+Question text
+
+State True/False: Single-source shortest paths problem on an acyclic directed graph can be performed in worst-case linear time in the input size.
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+Question 25
+
+Question text
+
+State True/False: Kruskal's algorithm for minimum weight spanning trees is an example of a divide and conquer algorithm.
+
+Select one:
+
+a. True
+
+b. False
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
