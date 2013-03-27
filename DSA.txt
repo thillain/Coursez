@@ -350,8 +350,38 @@ a. True
 b. False
 
  
+MyQuezstions
+------------
 
- 
+1)Determining if a graph is cyclic can be performed in worst case linear time in input size
+True
+2)An directed graph containing 10 vertices and 24 edges has the total degree 24
+False
+3)Given a graph G = (V, E) with positive edge weights, the Bellman-Ford algorithm and Dijkstra’s
+True
+4)Every directed acylic graph has exactly one topologicla ordering
+True
+5)Dijkstra’s algorithm may not terminate if the graph contains negative-weight edges.
+False
+6)If G is a spanning tree, m=(n-2) for a unidirected graph with n vertices and m edges.
+Doubt True
+7)Find the shortest path between all pairs of vertices cannot be performed in worst case linear time input size
+Doubt True
+8)If G is a graph with m edges, the sum of all edges in G is 2m.
+True
+9)Single-source shortest paths problem on an acyclic directed graph can be performed in worst-case linear time in the input size.
+Doubt False
+10)The Bellman-Ford algorithm for solving the single-source shortest paths problem uses dynamic Programming Technique
+True
+11)Traversing the spanning tree in-order can be performed in worst-case linear time in the input size.
+Doubt True
+12)Floyd-Warshall algorithm for solving the all-pairs shortest paths problem uses dynamic Programming Technique
+True
+13)Prim's Algorithm for finding a minimum spanning tree uses dynamic programming technique
+Doubt False
+14)Kruskal's algorithm for minimum weight spanning trees is an example of a divide and conquer algorithm.
+False
+15)An directed graph consisting of 5 vertices and 25 edges can be connected
 
  
 
