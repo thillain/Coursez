@@ -1,0 +1,19 @@
+---
+build.dart --machine --full
+Total time spent on web/webui_counter.html                   -- 1352 ms
+[{"method":"generated","params":{"file":"web/out/xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/webui_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/webui_counter.css"}}]
+[{"method":"mapping","params":{"from":"web/webui_counter.html","to":"web/out/webui_counter.html"}}]
+[{"method":"generated","params":{"file":"web/out/webui_counter.html"}}]
+[{"method":"generated","params":{"file":"web/out/webui_counter.dart"}}]
+[{"method":"generated","params":{"file":"web/out/xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"web/out/webui_counter.html_bootstrap.dart"}}]
+Total time                                                   -- 2988 ms
+build.dart finished [3471 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   -- 1245 ms
+build.dart finished [1690 ms]
+
