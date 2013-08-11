@@ -4,3 +4,10 @@ dist
 .sass-cache
 app/bower_components
 *.zip
+Gemfile
+Gemfile.lock
+_*
+.DS_Store
+packages
+out
+.buildlog
