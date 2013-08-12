@@ -316,3 +316,123 @@ Total time spent on web/shout.html                           --  19 ms
 Total time                                                   -- 1046 ms
 build.dart finished [1569 ms]
 
+---
+build.dart --machine --removed=web/webui_counter.css --removed=web/webui_counter.dart --removed=web/webui_count...
+error unable to open file "web/shout.html"
+Total time spent on web/shout.html                           --  20 ms
+Total time                                                   -- 1183 ms
+build.dart finished [1639 ms]
+
+---
+build.dart --machine --removed=web/xclickcounter.dart --removed=web/xclickcounter.html
+error unable to open file "web/shout.html"
+Total time spent on web/shout.html                           --  20 ms
+Total time                                                   -- 1111 ms
+build.dart finished [1530 ms]
+
+---
+build.dart --machine --changed=web/shout.dart
+error unable to open file "web/shout.html"
+Total time spent on web/shout.html                           --  18 ms
+Total time                                                   -- 1159 ms
+build.dart finished [1502 ms]
+
+---
+build.dart --machine --changed=web/shout.dart
+error unable to open file "web/shout.html"
+Total time spent on web/shout.html                           --  18 ms
+Total time                                                   -- 1068 ms
+build.dart finished [1414 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   -- 1777 ms
+build.dart finished [2550 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   -- 1474 ms
+build.dart finished [1941 ms]
+
+---
+build.dart --machine --changed=web/shout.html
+Total time spent on web/shout.html                           -- 274 ms
+[{"method":"generated","params":{"file":"web/out/shout.html_bootstrap.dart"}}]
+[{"method":"mapping","params":{"from":"web/shout.html","to":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart.map"}}]
+Total time                                                   -- 1342 ms
+build.dart finished [1719 ms]
+
+---
+build.dart --machine --changed=web/shout.html
+[{"method":"warning","params":{"file":"web/shout.html","message":"unable to open file \"web/shout.css\"","line":7,"charStart":95,"charEnd":135}}]
+Total time spent on web/shout.html                           -- 301 ms
+[{"method":"generated","params":{"file":"web/out/shout.html_bootstrap.dart"}}]
+[{"method":"mapping","params":{"from":"web/shout.html","to":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart.map"}}]
+Total time                                                   -- 1567 ms
+build.dart finished [3790 ms]
+
+---
+build.dart --machine --changed=web/shout.html
+[{"method":"warning","params":{"file":"web/shout.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+Total time spent on web/shout.html                           -- 192 ms
+[{"method":"mapping","params":{"from":"web/shout.html","to":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html.dart"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html.dart.map"}}]
+Total time                                                   -- 1250 ms
+build.dart finished [1602 ms]
+
+---
+build.dart --machine --changed=web/shout.html
+[{"method":"warning","params":{"file":"web/shout.html","message":"unable to open file \"web/shout.css\"","line":7,"charStart":95,"charEnd":135}}]
+Total time spent on web/shout.html                           -- 284 ms
+[{"method":"generated","params":{"file":"web/out/shout.html_bootstrap.dart"}}]
+[{"method":"mapping","params":{"from":"web/shout.html","to":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.html"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart"}}]
+[{"method":"generated","params":{"file":"web/out/shout.dart.map"}}]
+Total time                                                   -- 1709 ms
+build.dart finished [3345 ms]
+
+---
+build.dart --machine --changed=web/shout.css
+Total time                                                   -- 1100 ms
+build.dart finished [1468 ms]
+
+---
+build.dart --machine --changed=web/shout.css
+Total time                                                   -- 1039 ms
+build.dart finished [1383 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 1071 ms
+build.dart finished [1488 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 1039 ms
+build.dart finished [1395 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 1041 ms
+build.dart finished [1400 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 1096 ms
+build.dart finished [1492 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 1072 ms
+build.dart finished [1445 ms]
+

@@ -1,5 +1,5 @@
-name: webui_counter
-description: A sample WebUI application
+name: shout
+description: Shout! Shout! Let it all out!
 dependencies:
   browser: any
   js: any
