@@ -1,5 +1,5 @@
-name: shout
-description: Shout! Shout! Let it all out!
+name: Json 
+description: Its all with json
 dependencies:
   browser: any
   js: any
