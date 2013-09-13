@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Home",
+    "content": "This is the home page. Welcome"
+  },
+  "about": {
+    "title": "About",
+    "content": "This is the about page. Welcome"
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "This is the contact page. Welcome"
+  }
+}
