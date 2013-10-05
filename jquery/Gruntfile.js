@@ -50,11 +50,7 @@ var mountFolder = function (connect, dir) {
           livereload: LIVERELOAD_PORT
         },
         files: [
-        '<%= jshint.files %>',
-          '*.html',
-          '{.tmp,assets/bower_components/{,*/}*.css',
-          '{.tmp,assets/bower_components/{,*/}*.js',
-          'images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+        
         ],
         tasks: ['jshint', 'qunit']
       }
