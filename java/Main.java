@@ -8,6 +8,9 @@ public class Main{
 	{
 		HashSet<Integer> phones = new HashSet<Integer>();
 		phones.add(45566);
+		phones.add(45566);
+		phones.add(55566);
+
 		System.out.println(phones);
 	}
 }
