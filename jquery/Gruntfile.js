@@ -1,11 +1,4 @@
 module.exports = function(grunt) {
-'use strict';
-var LIVERELOAD_PORT = 35729;
-var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
-
-var mountFolder = function (connect, dir) {
-  return connect.static(require('path').resolve(dir));
-};
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -44,27 +37,16 @@ var mountFolder = function (connect, dir) {
         }
       }
     },
-    watch: {
-       livereload: {
-        options: {
-          livereload: LIVERELOAD_PORT
-        },
-        files: [
-        
-        ],
-        tasks: ['jshint', 'qunit']
-      }
-    },
-    connect: {
-      server: {
-        options: {
-          port: 9001,
-          base: 'jquery'
-        }
-      }
+  connect: {
+    server: {
+      port: 9000,
+      hostname: '0.0.0.0',
+      base: '',
+      keepalive: true
     }
+  }
 
-  });
+});
 
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-jshint');

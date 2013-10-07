@@ -11,3 +11,4 @@ _*
 packages
 out
 .buildlog
+java/*.class
