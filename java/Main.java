@@ -20,5 +20,16 @@ public class Main{
 		directory.put("queen",3456);
 		System.out.println(directory);
 		System.out.println(directory.get("larry"));
+
+		HashMap<String, HashSet<String>> people = new HashMap<String, HashSet<String>>();
+		HashSet<String> friends = new HashSet<String>();
+		friends.add("Tom");
+		friends.add("Jerry");
+		people.put("Alice",friends);
+		HashSet<String> tm = new HashSet<String>();
+		tm.add("Tom1");
+		tm.add("Jerry2");
+		people.put("Layton",tm);
+		System.out.println(people);
  	}
 }
