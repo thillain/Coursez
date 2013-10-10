@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -17,11 +17,54 @@
 </head>
 <body>
 	<div ng-controller="jsoncontroller">
+ <div id="images">
 
+</div>
 	</div>
 	<script src="/scripts/vendor/jquery-1.10.2.min.js"></script>
 	<script src="/scripts/vendor/angular.min.js"></script>
 	<script src="/scripts/app.js"></script>
 	<script src="/scripts/controllers/show.js"></script>
+<!--	<script>
+	$(document).ready(function(){
+	 $.getJSON("https://builds.apache.org/api/json?pretty=true",
+        function(data){
+            alert(data.homepage_url);
+        });
+	 $.ajax({
+    url: "",
+	dataType: "jsonp",
+	crossDomain: true,
+	success: function(data) { alert("json loaded successfully.")},
+	error: function(data) { alert("json not loaded")}
+    });
+  	});
+	
+	</script>
+	<script>
+$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  {
+    tags: "dogs",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img/>").attr("src", item.media.m).appendTo("#images");
+      if ( i == 3 ) return false;
+    });
+  });</script>-->
+ <script>
+ $(document).ready(function(){
+  $.ajax({
+  url: "https://builds.apache.org/api/json/json",
+  dataType: 'jsonp',  //use jsonp data type in order to perform cross domain ajax
+  crossDomain: true,
+  success: function(data) { alert("json loaded successfully.")},
+  error: function(data) { alert("json not loaded 12212")}
+});
+
+});
+ </script>
 </body>
 </html>
