@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<script type="text/javascript">
+	function getHtmlData(){
+		for(i = 0; i < 500; i++){
+			if(document.getElementById("area") != null){
+				document.getElementById("area").innerHTML +="Hello" +i+"</br>";
+			}
+	
+		}
+	}
+	function getHtmlDataupdated()
+	{
+	}
+	</script>
+</head>
+<body>
+	<div id="contentarea">
+		<input type="button" value="getHtmlData1" onclick="getHtmlData()"/>
+		<input type="button" value="getHtmlDataupdated" onclick="getHtmlDataupdated()"/>
+		hhh
+	</div>
+	<div id="area" style="float:left;width:100px">HTML Data world</div>
+</body>
+</html>
