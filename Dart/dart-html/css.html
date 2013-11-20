@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <h1>Breakfast</h1> 
+    <ul>
+      <li id='first' class='must-have'>Milk</li>
+      <li class='must-have'>Cereal
+        <ul>
+          <li>Bran Flakes</li>
+          <li><a href='https://en.wikipedia.org/wiki/Nut_(fruit)'>Nuts</a></li>
+        </ul>
+      </li>
+      <li>Juice</li>
+    </ul>    
+    
+    <script type="application/dart">
+      import 'dart:html';
+      
+      void main() {
+    
+        // Find by ID.
+        Element element = query('#first');
+        print(element.id);                 // 'first'
+        print(element.text);               // 'Milk'
+        
+        // Find by class.
+        List<Element> elements = queryAll('.must-have');
+        print(elements.length);            // 2
+        
+        // Find by ID or class.
+        elements = queryAll('#first, .must-have');
+        print(elements.length);            // 2
+        
+        // Find by tag.
+        elements = queryAll('li');
+        
+        alert(elements.length);            // 5
+        
+        // Use hierarchical selectors.
+        elements = queryAll('li > ul > li');
+        print(elements.first.text);        // 'Bran Flakes'
+        
+        // Use pseudo-elements.
+        element = query('li:nth-child(1)');
+        print(element.text);               // 'Milk'
+        
+        // Find by attribute.
+        elements = queryAll('[href *= Nut]');
+        print(elements.length);            // 1
+      
+      }
+    </script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

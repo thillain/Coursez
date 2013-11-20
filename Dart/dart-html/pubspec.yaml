@@ -2,3 +2,5 @@ name: Dom
 description: A sample application
 dependencies:
   browser: any
+  js: any
+  jsonp: any
