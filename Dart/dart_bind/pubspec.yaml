@@ -1,0 +1,4 @@
+name: dart_bind
+description: A sample web application
+dev_dependencies:
+  web_ui: any  

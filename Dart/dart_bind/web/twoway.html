@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>twoway</title>
+  </head>
+ 
+  <body>   
+    <p>
+      Name: <input type="text" bind-value="person.name">
+    </p>
+    <p>
+      City: <input type="text" bind-value="person.address.city">
+    </p>
+    
+    <p>Person's name: {{person.name}}</p>
+    <p>Person's Address's city: {{person.address.city}}</p>
+    <script type="application/dart" src="twoway.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
