@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="d3DemoApp">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS + D3.js</title>
+  <script src="http://d3js.org/d3.v2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="AppCtrl">
+  <h1>Github Commit Graph</h1>
+
+  <form ng-submit="getCommitData()">
+    User: <input ng-model="user"></input>
+    Repo: <input ng-model="repo"></input>
+    <input type="submit" value="Get Data">
+    Grouped <input type="checkbox" ng-model="grouped">
+  </form>
+  
+  <p class="error">{{error}}</p>
+  <gh-visualization val="data" grouped="grouped"></gh-visualization>
+</body>
+</html>
