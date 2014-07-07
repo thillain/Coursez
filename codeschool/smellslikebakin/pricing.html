@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Smells Like Bakin' Cupcake Company</title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="external/matchmedia.js"></script>
+	<script src="picturefill.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+</head>
+
+<body>
+	
+	<div class="container clearfix">
+		<div id="logo" class="grid_4">
+			<object data="img/logo.svg" type="image/svg+xml" class="logo">
+				<a href="logo.svg" >
+					<!--[if lte IE 8 ]-->
+					<img src="img/logo.gif" alt="Smells Like Bakin">
+					<!--![endif]-->
+				</a>
+			</object>
+
+		</div>
+		<div id="nav" class="grid_8 omega" >
+			<ul>
+				<li class="about"><a href="#">About</a></li>
+				<li class="pricing"><a href="pricing.html">Cupcakes & Prices</a></li>
+				<li class="locations"><a href="locations.html">Locations</a></li>
+				<li class="contact"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+
+		<div class="grid_12">
+			<h1 class="hero">We have a wide variety of delicious desserts that are sure to take you by surprise!</h1>
+		</div>
+
+
+		<div class="cupcake grid_12">
+			<div class="grid_4">
+				<div data-picture data-alt="Avocado Chocolate">
+					<div data-src="external/imgs/subpage/avocado-small.jpg"></div>
+					<div data-src="external/imgs/subpage/avocado-medium.jpg"     data-media="(min-width: 650px)"></div>
+					<div data-src="external/imgs/subpage/avocado-large.jpg"      data-media="(min-width: 860px)"></div>
+					<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+					<noscript>
+						<img src="external/imgs/subpage/avocado-small.jpg" alt="Avocado Chocolate">
+					</noscript>
+				</div>
+			</div>
+			<div class="grid_8 omega">
+				<h2>Avocado Chocolate</h2>
+				<p>Made with chocolate cake, avocado icing, and topped with walnuts, this cupcake will kick your tastebuds into fiesta mode!</p>
+
+				<div class="order_form">
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_cart">
+						<input type="hidden" name="business" value="andrew@teamtreehouse.com">
+						<input type="hidden" name="lc" value="US">
+						<input type="hidden" name="item_name" value="Bacon Cup Cakes">
+						<input type="hidden" name="button_subtype" value="products">
+						<input type="hidden" name="no_note" value="0">
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="shipping" value="10.00">
+						<input type="hidden" name="add" value="1">
+						<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+						<table>
+							<tr><td><input type="hidden" name="on0" value="Amount">Quantity</td></tr><tr><td>
+							<select name="os0">
+								<option value="Half Dozen">Half Dozen $5.00 USD</option>
+								<option value="Full Dozen">Full Dozen $9.00 USD</option>
+								<option value="Double Dozen">Double Dozen $15.00 USD</option>
+							</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="option_select0" value="Half Dozen">
+						<input type="hidden" name="option_amount0" value="5.00">
+						<input type="hidden" name="option_select1" value="Full Dozen">
+						<input type="hidden" name="option_amount1" value="9.00">
+						<input type="hidden" name="option_select2" value="Double Dozen">
+						<input type="hidden" name="option_amount2" value="15.00">
+						<input type="hidden" name="option_index" value="0">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="cupcake grid_12">
+			<div class="grid_4">
+				<div data-picture data-alt="Bacon Me Crazy">
+					<div data-src="external/imgs/subpage/bacon-small.jpg"></div>
+					<div data-src="external/imgs/subpage/bacon-medium.jpg"     data-media="(min-width: 650px)"></div>
+					<div data-src="external/imgs/subpage/bacon-large.jpg"      data-media="(min-width: 860px)"></div>
+					<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+					<noscript>
+						<img src="external/imgs/subpage/bacon-small.jpg" alt="Bacon Me Crazy">
+					</noscript>
+				</div>
+			</div>
+			<div class="grid_8 omega">
+				
+				<h2>Bacon Me Crazy</h2>
+				<p>Our infamous Bacon Cupcake has a deliciously moist vanilla cake, creamy cream cheese icing, topped with bacon and maple glaze.</p>
+				<div class="order_form">
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_cart">
+						<input type="hidden" name="business" value="andrew@teamtreehouse.com">
+						<input type="hidden" name="lc" value="US">
+						<input type="hidden" name="item_name" value="Bacon Cup Cakes">
+						<input type="hidden" name="button_subtype" value="products">
+						<input type="hidden" name="no_note" value="0">
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="shipping" value="10.00">
+						<input type="hidden" name="add" value="1">
+						<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+						<table>
+							<tr><td><input type="hidden" name="on0" value="Amount">Quantity</td></tr><tr><td>
+							<select name="os0">
+								<option value="Half Dozen">Half Dozen $5.00 USD</option>
+								<option value="Full Dozen">Full Dozen $9.00 USD</option>
+								<option value="Double Dozen">Double Dozen $15.00 USD</option>
+							</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="option_select0" value="Half Dozen">
+						<input type="hidden" name="option_amount0" value="5.00">
+						<input type="hidden" name="option_select1" value="Full Dozen">
+						<input type="hidden" name="option_amount1" value="9.00">
+						<input type="hidden" name="option_select2" value="Double Dozen">
+						<input type="hidden" name="option_amount2" value="15.00">
+						<input type="hidden" name="option_index" value="0">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="cupcake grid_12">
+			<div class="grid_4">
+				<div data-picture data-alt="Jalapeño So Spicy">
+					<div data-src="external/imgs/subpage/lime-small.jpg"></div>
+					<div data-src="external/imgs/subpage/lime-medium.jpg"     data-media="(min-width: 650px)"></div>
+					<div data-src="external/imgs/subpage/lime-large.jpg"      data-media="(min-width: 860px)"></div>
+					<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+					<noscript>
+						<img src="external/imgs/subpage/lime-small.jpg" alt="Jalapeño So Spicy">
+					</noscript>
+				</div>
+			</div>
+			<div class="grid_8 omega">
+				
+				<h2>Jalapeño So Spicy</h2>
+				<p>This spicy cupcake has a chocolatey cake with a kick, creamy vanilla lime icing, and topped with a lime wedge.</p>
+				<div class="order_form">
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_cart">
+						<input type="hidden" name="business" value="andrew@teamtreehouse.com">
+						<input type="hidden" name="lc" value="US">
+						<input type="hidden" name="item_name" value="Bacon Cup Cakes">
+						<input type="hidden" name="button_subtype" value="products">
+						<input type="hidden" name="no_note" value="0">
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="shipping" value="10.00">
+						<input type="hidden" name="add" value="1">
+						<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+						<table>
+							<tr><td><input type="hidden" name="on0" value="Amount">Quantity</td></tr><tr><td>
+							<select name="os0">
+								<option value="Half Dozen">Half Dozen $5.00 USD</option>
+								<option value="Full Dozen">Full Dozen $9.00 USD</option>
+								<option value="Double Dozen">Double Dozen $15.00 USD</option>
+							</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="hidden" name="option_select0" value="Half Dozen">
+						<input type="hidden" name="option_amount0" value="5.00">
+						<input type="hidden" name="option_select1" value="Full Dozen">
+						<input type="hidden" name="option_amount1" value="9.00">
+						<input type="hidden" name="option_select2" value="Double Dozen">
+						<input type="hidden" name="option_amount2" value="15.00">
+						<input type="hidden" name="option_index" value="0">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div id="footer" class="grid_12">
+			<div id="about" class="grid_7">
+				<h2>Inside the Kitchen</h2>
+				<p>Smells Like Bakin’ started out in the garage of the husband wife duo Allison &amp; Joseph. Allison is the baker, and Joseph found a way for them to make a business out of her tasty treats. Flash forward to today and they have a successful store front, catering business and cupcake truck. </p>
+				<p><a href="#" class="btn-small">Read More</a></p>
+			</div>
+			
+			
+			<div id="contact" class="grid_5 omega">
+				<h2>Get Bakin’ with Us</h2>
+				<p>Call us: <span class="contact">1-800-CUP-CAKE</span><br>
+					Email us: <a href="#">bakeon@smellslikebakin.com</a></p>
+
+					<p>We announce all of our new flavors first through Facebook &amp; Twitter, and even take requests!</p>		
+
+					<object data="img/facebook.svg" type="image/svg+xml">
+						<a href="facebook.svg">
+							<!--[if lte IE 8 ]-->
+							<img src="img/facebook.gif" alt="Facebook">
+							<!--![endif]-->
+						</a>
+					</object>
+
+					<object data="img/twitter.svg" type="image/svg+xml">
+						<a href="twitter.svg">
+							<!--[if lte IE 8 ]-->
+							<img src="img/twitter.gif" alt="Twitter">
+							<!--![endif]-->
+						</a>
+					</object>
+				</div>
+
+				<div id="copyright" class="grid_12">
+					<p>© 2012 Smells Like Bakin' Cupcake Company. All Rights Reserved.</p>
+				</div>
+
+			</div>
+		</div>
+</body>
+</html>
