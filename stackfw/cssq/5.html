@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html class="no-js"> 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/5.css" media="all">
+</head>
+<body>
+<!--
+CSS have div of images go across and scroll
+[Link] -> http://stackoverflow.com/questions/21807361/css-have-div-of-images-go-across-and-scroll
+-->
+<div id="gallerySet1">
+	<div class="wrapper">
+		<img src="http://placekitten.com/300/300">
+		<img src="http://placekitten.com/100/300">
+		<img src="http://placekitten.com/400/300">
+		<img src="http://placekitten.com/240/300">
+		<img src="http://placekitten.com/100/300">
+		<img src="http://placekitten.com/40/300">
+		<img src="http://placekitten.com/300/300">
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/100/300">
+		<img src="http://placekitten.com/200/300">
+		<img src="http://placekitten.com/200/300">
+	</wrapper>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(functionn(){
+		var imgs = $('img'),
+		width = 0,
+		wrapper = $('.wrapper');
+		
+		
+		
+		imgs.each(function(index){
+			width += $(this).width();
+		});
+		
+		wrapper.width(width);
+	});
+</script>
+</body>
+</html>

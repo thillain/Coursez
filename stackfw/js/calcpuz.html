@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge",chrome=1/>
+	<title>Js Calc Puzzle</title>
+	<style type="text/css">
+		#phone button{
+			height:50px;
+			width:75px;
+		}
+		#phone button span
+		{
+			display:block;
+			margin-top:5px;
+			font-size:10px;
+		}
+		#result{
+			width:225px;
+			height:25px;
+			margin-left:2px;
+		}
+	</style>
+
+</head>
+<body>
+	<table id="phone">
+		<tr>
+			<td colspan="3">
+				<input type="text" id="result"/>
+			</td>
+		</tr>
+		<tr>
+			<td><button data-value="1" class="key">1<span>. , !</span></button></td>
+		<td>
+			<button data-value="2" class="key">2<span>a b c</span></button></td>
+		<td>
+			<button data-value="3" class="key">3<span>d e f</span></button></td>
+	</tr>
+</table>
+
+<script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		
+		$("#phone").find("button").mouseup(function(event){
+			var button_pressed=$(event.currentTarget).data("value")
+			$("#result").val(t9($("#result").val(),button_pressed))
+		});
+	});	
+	function t9(text,button_pressed){
+    // Write your code here
+     //   var span12 = $(button_pressed).find("span").html();
+  var chars = $("button[data-value='"+button_pressed+"'] span").text().split(" ");
+    if(text) {
+      $.each(chars, function(i) {
+        if(chars[i] == text) {
+            text = (i+1 <= chars.length) ? chars[i + 1] : chars[0];
+            alert(text);
+          return false;
+        }        
+      });
+    } else {
+     text = chars[0];
+    }      
+    return text;
+}
+
+</script>
+</body>
+</html>

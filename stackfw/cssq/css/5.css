@@ -1,0 +1,16 @@
+#gallerySet1 {
+    width: 600px;
+    height: 300px;
+    overflow-x: scroll;
+}
+.wrapper {
+    //min-width: 2200px;
+}
+.wrapper:after {
+    clear: both;
+    content:'';
+    display: table;
+}
+img {
+    float: left;
+}
