@@ -12,3 +12,4 @@ packages
 out
 .buildlog
 *.class
+*/*.log
