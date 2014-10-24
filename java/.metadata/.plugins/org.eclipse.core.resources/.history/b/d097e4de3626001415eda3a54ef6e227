@@ -1,0 +1,14 @@
+package examples;
+
+public class applesnested {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age = 60;
+		if(age < 50){
+		}
+		}
+
+	}
+
+}

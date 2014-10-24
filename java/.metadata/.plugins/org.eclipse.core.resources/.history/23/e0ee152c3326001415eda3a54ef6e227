@@ -1,0 +1,8 @@
+package examples;
+
+private String girlName;
+public class tuna {
+	public void setName(String name)
+	girlName = name;
+
+}

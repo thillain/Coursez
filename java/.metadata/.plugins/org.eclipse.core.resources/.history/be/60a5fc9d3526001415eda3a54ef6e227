@@ -1,0 +1,12 @@
+package examples;
+
+public class apples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		tuna tunaObject = new tuna();
+		tunaObject.saying();
+
+	}
+
+}

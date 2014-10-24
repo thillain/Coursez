@@ -1,0 +1,6 @@
+package examples;
+
+public class tuna {
+	public void setName(String name)
+
+}

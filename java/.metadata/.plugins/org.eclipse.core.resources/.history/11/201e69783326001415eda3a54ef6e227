@@ -1,0 +1,11 @@
+package examples;
+
+
+
+public class tuna {
+	private String girlName;
+	
+	public void setName(String name){
+	girlName = name;
+
+}
