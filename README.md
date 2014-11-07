@@ -1,4 +1,5 @@
-#Examples and practical works from major technologies
+# Problem updates
 
-## Endore my skills
-[![endorse](https://api.coderwall.com/judearasu/endorsecount.png)](https://coderwall.com/judearasu)
+##NatJS
+ * Event Delegation
+
